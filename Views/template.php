@@ -26,8 +26,8 @@
 
     <article>
         <?php
-        $mvc = new EnlacesPaginaController();
-        $mvc -> enlacesPaginasController();
+        $mvc = new PageLinksController();
+        $mvc -> pageLinksController();
         ?>
     </article>
 

@@ -1,21 +1,29 @@
 <?php
-    require_once "Models/model.php";
-    class EnlacesPaginaController{
-        public function plantilla(){
+    class PageLinksController{
+        public function template(){
             include "Views/Inicio.php";
         }
-        public function enlacesPaginasController(){
+        
+        public function pageLinksController(){
             if(isset($_GET["accion"])){
-                $enlacescontroller = $_GET["accion"];
+                $linksController = $_GET["accion"];
             }else{
-                $enlacescontroller = "Inicio";
+                $linksController = "Inicio";
             }
-           // $var = new EnlacesPaginas();
-           // $respuesta = $var->enlacesPaginasModel($enlacescontroller);
-            $respuesta = EnlacesPaginas::enlacesPaginasModel($enlacescontroller);
-            include $respuesta;
+            
+            $response = $this->pageLinksModel($linksController);
+            include $response;
         }
 
+        private function pageLinksModel($enlacesModel){
+            $allowedViews = ["Inicio", "Nosotros", "Servicios", "Contacto"];
+            
+            if(in_array($enlacesModel, $allowedViews)){
+                $module = "Views/" . $enlacesModel . ".php";
+            } else {
+                $module = "Views/Inicio.php";
+            }
+            return $module;
+        }
     }
-
 ?>

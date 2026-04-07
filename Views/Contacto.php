@@ -2,30 +2,6 @@
     <h1>Contáctanos</h1>
     <p>Estamos aquí para atender tus inquietudes. Puedes visitarnos en nuestro campus, llamarnos o enviarnos un mensaje a través del siguiente formulario.</p>
 
-    <div class="contact-info">
-        <div class="contact-item">
-            <span class="contact-icon">📍</span>
-            <div>
-                <strong>Dirección:</strong><br>
-                Av. Los Chasquis y Río Payamino, Campus Huachi, Ambato - Ecuador
-            </div>
-        </div>
-        <div class="contact-item">
-            <span class="contact-icon">📞</span>
-            <div>
-                <strong>Teléfono:</strong><br>
-                (03) 370-0090
-            </div>
-        </div>
-        <div class="contact-item">
-            <span class="contact-icon">📧</span>
-            <div>
-                <strong>Email:</strong><br>
-                comunicacion@uta.edu.ec
-            </div>
-        </div>
-    </div>
-
     <h2>Envíanos un Mensaje</h2>
     <form action="#" method="post" style="max-width: 600px; margin: 0 auto;">
         <div class="form-group">
@@ -50,4 +26,120 @@
 
         <button type="submit" class="btn" style="width: 100%;">Enviar Mensaje</button>
     </form>
+
+    <h3>Información Personal</h3>
+    
+    <div class="card-grid" style="margin-bottom: 30px;">
+        <div class="card">
+            <h4>Acaro Ibujés Pedro Sebastián</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0996847508</li>
+                    <li>Correo Electrónico: pacaro3350@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Escuchar Música</li>
+                </ul>
+            </p>
+        </div>
+        <div class="card">
+            <h4>Auz Mayorga José Mateo</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0999049301</li>
+                    <li>Correo Electrónico: jauz1350@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Mirar películas</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="card-grid" style="margin-bottom: 30px;">
+        <div class="card">
+            <h4>Chachalo Redroban Joseph Damian</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0962021770</li>
+                    <li>Correo Electrónico: jchachalo3809@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Jugar fútbol</li>
+                </ul>
+            </p>
+        </div>
+        <div class="card">
+            <h4>De La Cruz Llundo Carolina Elizabeth</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0999831182</li>
+                    <li>Correo Electrónico: cdelacruz6751@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Salir a caminar</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="card-grid" style="margin-bottom: 30px;">
+        <div class="card">
+            <h4>Jirón Gordillo Jonathan Gabriel</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0995204765</li>
+                    <li>Correo Electrónico: jjiron0659@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Jugar fútbol</li>
+                </ul>
+            </p>
+        </div>
+        <div class="card">
+            <h4>Paredes Garzon Robert Andrés</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0939340252</li>
+                    <li>Correo Electrónico: rparedes0759@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Jugar videojuegos</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="card-grid" style="margin-bottom: 30px;">
+        <div class="card">
+            <h4>Travez Ponce Fariddy Andrés</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0962617794</li>
+                    <li>Correo Electrónico: ftravez5847@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Entrenar</li>
+                </ul>
+            </p>
+        </div>
+        <div class="card">
+            <h4>Vinces Cueva Boris Yussef</h4>
+            <p> <strong>Estudiante</strong>
+                <ul>
+                    <li>Carrera: Ingeniería en Software</li>
+                    <li>Nivel: 4to Semestre</li>
+                    <li>Lugar de residencia: Ambato</li>
+                    <li>Teléfono: 0998247808</li>
+                    <li>Correo Electrónico: bvinces0274@uta.edu.ec</li>
+                    <li>Pasatiempo favorito: Jugar videojuegos</li>
+                </ul>
+            </p>
+        </div>
+    </div>
 </section>
